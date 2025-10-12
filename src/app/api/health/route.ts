@@ -1,5 +1,3 @@
-import { NextResponse } from "next/server";
+// API route removed to support static export. See `public/health.json` for a static health endpoint.
 
-export async function GET() {
-  return NextResponse.json({ message: "Good!" });
-}
+export const GET = undefined;
