@@ -2,6 +2,10 @@
 
 Lightweight Next.js + Tailwind project for a game called "Stepping Stones". The app is now a frontend-only Next.js application (no server-side sockets or database).
 
+Author: mfaeezshabbir — https://github.com/mfaeezshabbir
+
+Branding: Stepping Stones by mfaeezshabbir
+
 This README gives quick setup instructions and a short analysis of files that were removed or recommended for cleanup.
 
 ## Quick start
