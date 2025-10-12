@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     "Tailwind CSS",
     "React",
   ],
+  icons: {
+    icon: "/logo.png",
+  },
   authors: [{ name: "mfaeezshabbir", url: "https://github.com/mfaeezshabbir" }],
   openGraph: {
     title: "Stepping Stones",
