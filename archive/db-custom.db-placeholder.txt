@@ -1,0 +1,2 @@
+This placeholder notes that an SQLite DB file `db/custom.db` existed and was archived/removed when the project was converted to frontend-only.
+If you need the original binary DB, restore it from your local backup or version control.
