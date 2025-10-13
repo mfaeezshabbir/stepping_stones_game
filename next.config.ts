@@ -2,24 +2,28 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Export static HTML files (replaces `next export`)
-  output: 'export',
+  output: "export",
+  // Set base path for GitHub Pages subdirectory
+  basePath: "/stepping_stones_game",
   /* config options here */
   typescript: {
+    // Ignore TypeScript errors during build
     ignoreBuildErrors: true,
   },
-  // 禁用 Next.js 热重载，由 nodemon 处理重编译
+  // Disable Next.js hot reload; nodemon handles recompilation
   reactStrictMode: false,
   webpack: (config, { dev }) => {
     if (dev) {
-      // 禁用 webpack 的热模块替换
+      // Disable webpack's hot module replacement
       config.watchOptions = {
-        ignored: ['**/*'], // 忽略所有文件变化
+        // Ignore all file changes
+        ignored: ["**/*"],
       };
     }
     return config;
   },
   eslint: {
-    // 构建时忽略ESLint错误
+    // Ignore ESLint errors during build
     ignoreDuringBuilds: true,
   },
 };

@@ -38,5 +38,6 @@ jobs:
           publish_dir: ./out
           publish_branch: gh-pages
           keep_files: false
+          cname: false
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
